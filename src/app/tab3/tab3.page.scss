@@ -1,0 +1,25 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+.addBtn {
+  position: fixed;
+  bottom: 2em;
+  right: 1em;
+  --border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  --background: purple;
+  --background-activated: rgb(171, 7, 171);
+}
+.profileCard {
+  margin-left: 10vw;
+  margin-top: 2vh;
+  width: 80vw;
+  --background: rgb(111, 107, 107);
+}
+.profileCard:hover {
+  margin-left: 5vw;
+  margin-top: 1.5vh;
+  width: 90vw;
+  --background: rgb(137, 136, 136);
+}
